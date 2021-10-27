@@ -3,6 +3,6 @@ Created by stankovictab.
 <br>
 Based off of the Graveyard theme.
 <br>
-Made in [Theme Studio for VSCode](themes.vscode.one).
+Made in [Theme Studio for VSCode](https://themes.vscode.one/).
 
 `Have fun!`
