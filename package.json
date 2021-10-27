@@ -15,6 +15,7 @@
 		"mgz dark theme",
 		"mgz"
 	],
+	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.61.0"
 	},
