@@ -6,3 +6,5 @@ Based off of the Graveyard theme.
 Made in [Theme Studio for VSCode](https://themes.vscode.one/).
 
 `Have fun!`
+
+!["Theme Preview"](/theme.png)
