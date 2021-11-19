@@ -2106,6 +2106,29 @@
 		"breadcrumb.activeSelectionForeground": "#eeeeee",
 		"editorGutter.commentRangeForeground": "#a3a3a3",
 		"debugExceptionWidget.background": "#080808",
-		"debugExceptionWidget.border": "#00000000"
+		"debugExceptionWidget.border": "#00000000",
+		// Jupyter Notebook
+		"notebook.cellBorderColor": "#1b1b1b",
+		"notebook.cellEditorBackground": "#050505",
+		// "notebook.cellHoverBackground": "#0e0e0e",
+		"notebook.cellInsertionIndicator": "#2a529c",
+		"notebook.cellStatusBarItemHoverBackground": "#2a529c",
+		"notebook.cellToolbarSeparator": "#6d6d6d",
+		// "notebook.focusedCellBackground": "#0e0e0e",
+		// "notebook.focusedCellBorder": "#2a529c",
+		"notebook.focusedEditorBorder": "#6d6d6d",
+		"notebook.inactiveFocusedCellBorder": "#000000",
+		"notebook.inactiveSelectedCellBorder": "#ff0000",
+		"notebook.outputContainerBackgroundColor": "#0e0e0e",
+		// "notebook.outputContainerBorderColor": "#ff0000"
+		"notebook.selectedCellBackground": "#ff0000",
+		"notebook.selectedCellBorder": "#ff0000",
+		"notebook.symbolHighlightBackground": "#ff0000",
+		// "notebookScrollbarSlider.activeBackground": "#ff0000",
+		// "notebookScrollbarSlider.background": "#ff0000",
+		"notebookScrollbarSlider.hoverBackground": "#2b2b2b",
+		"notebookStatusErrorIcon.foreground": "#ca3838",
+		"notebookStatusRunningIcon.foreground": "#ff0000",
+		"notebookStatusSuccessIcon.foreground": "#48da2a",
 	}
 }
