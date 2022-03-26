@@ -2395,13 +2395,37 @@
 		"minimap.background": "#000000",
 		"editorGroup.emptyBackground": "#000000",
 		"panelSection.border": "#21212158",
-		"settings.headerForeground": "#CECECE",
-		"settings.focusedRowBackground": "#ffffff07",
 		"walkThrough.embeddedEditorBackground": "#00000050",
 		"breadcrumb.activeSelectionForeground": "#eeeeee",
 		"editorGutter.commentRangeForeground": "#a3a3a3",
 		"debugExceptionWidget.background": "#080808",
 		"debugExceptionWidget.border": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		// VSCode Settings Menu
+		"settings.checkboxBackground": "#202020",
+		"settings.checkboxBorder": "#000000",
+		"settings.checkboxForeground": "#ffffff",
+		"settings.dropdownBackground": "#202020",
+		"settings.dropdownBorder": "#000000",
+		"settings.dropdownForeground": "#ffffff",
+		"settings.dropdownListBorder": "#ff0000",
+		"settings.focusedRowBorder": "#267ea1",
+		"settings.headerBorder": "#202020",
+		"settings.modifiedItemIndicator": "#03b8ff",
+		"settings.numberInputBackground": "#202020",
+		"settings.numberInputBorder": "#000000",
+		"settings.numberInputForeground": "#ffffff",
+		"settings.rowHoverBackground": "#0f0f0f",
+		"settings.sashBorder": "#202020",
+		"settings.textInputBackground": "#202020",
+		"settings.textInputBorder": "#000000",
+		"settings.textInputForeground": "#ffffff",
+		"settings.headerForeground": "#5db1ff",
+		"settings.focusedRowBackground": "#0f0f0f",
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
@@ -2437,8 +2461,8 @@
 		////////////////////////////////////////////////////////////////////
 		// TERMINAL COLORS
 		"terminal.background": "#000000",
-		// "terminal.dropBackground": "#2e2e2e93",
-		// "terminal.tab.activeBorder": "#41ccdf",
+		"terminal.dropBackground": "#2e2e2e93",
+		"terminal.tab.activeBorder": "#03b8ff",
 		"terminal.foreground": "#ffffff",
 		"terminal.selectionBackground": "#ffffff",
 		"terminalCursor.background": "#1d1d1d",
@@ -2465,5 +2489,12 @@
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
+		// Debug Console & Debug Stuff
+		"debugConsole.errorForeground": "#ff0000",
+		"debugConsole.infoForeground": "#ffffff",
+		"debugConsole.sourceForeground": "#ff00ff",
+		"debugConsole.warningForeground": "#ffff00",
+		"debugConsoleInputIcon.foreground": "#ff0000",
+		"debugIcon.breakpointForeground": "#ee2a10",
 	}
 }
