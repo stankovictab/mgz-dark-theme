@@ -1556,17 +1556,17 @@
 		"selection.background": "#333333",
 		"scrollbar.shadow": "#000000",
 		////////////////////////////////////////////////////////////////////
-		// Activity Bar - The left vertical bar with explorer, search, source control, etc.
+		// Activity Bar - The left vertical bar with explorer, search, etc.
 		"activityBar.foreground": "#ffffff",
 		"activityBar.activeBorder": "#50A7FF",
-		// "activityBar.activeFocusBorder": "#ff0000",
-		// "activityBar.dropBorder": "#20b14c",
-		"activityBar.background": "#060606",
+		"activityBar.activeBackground": "#000000",
+		"activityBar.activeFocusBorder": "#ffffff",
+		"activityBar.dropBorder": "#50A7FF",
+		"activityBar.background": "#000000",
 		"activityBar.inactiveForeground": "#8f8f8f",
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBarBadge.background": "#0c4374",
 		"activityBar.border": "#00000000",
-		"activityBar.activeBackground": "#000000",
 		////////////////////////////////////////////////////////////////////
 		// Side Bar - The one right of the activity bar, with the explorer folders
 		"sideBar.background": "#030303",
@@ -1592,6 +1592,8 @@
 		"listFilterWidget.background": "#222222",
 		"listFilterWidget.outline": "#00000000",
 		"listFilterWidget.noMatchesOutline": "#ab282874",
+		////////////////////////////////////////////////////////////////////
+		// Tree - ?
 		"tree.indentGuidesStroke": "#8f8f8f",
 		"tree.tableColumnsBorder": "#ff00ff",
 		"tree.tableOddRowsBackground": "#ff00ff",
@@ -1612,12 +1614,14 @@
 		"statusBarItem.remoteBackground": "#000000",
 		"statusBarItem.remoteForeground": "#5fcbff",
 		////////////////////////////////////////////////////////////////////
-		// Title Bar - ???????
+		// Title Bar - When window.titleBarStyle is set to "custom", the top bar (with minimize, maximize, etc)
 		"titleBar.activeBackground": "#000000",
-		"titleBar.activeForeground": "#ececec",
+		"titleBar.activeForeground": "#ffffff",
 		"titleBar.inactiveBackground": "#000000",
 		"titleBar.inactiveForeground": "#6b6b6b",
 		"titleBar.border": "#000000",
+		// "window.activeBorder": "#00000000",
+		// "window.inactiveBorder": "#00000000",
 		"menubar.selectionForeground": "#ffffff",
 		"menubar.selectionBackground": "#111111",
 		"menubar.selectionBorder": "#e60f0f00",
@@ -1628,8 +1632,6 @@
 		"menu.selectionBorder": "#000000",
 		"menu.separatorBackground": "#ffffff1f",
 		"menu.border": "#111111",
-		// "window.activeBorder": "#ff0000",
-		// "window.inactiveBorder": "#00ff00",
 		"button.background": "#2b628a",
 		"button.foreground": "#eeeeee",
 		"button.hoverBackground": "#259aff",
@@ -1707,7 +1709,9 @@
 		"panel.dropBorder": "#4baede",
 		"panelInput.border": "#ff0000",
 		"panelSection.dropBackground": "#ff0000",
-		"panelSectionHeader.background": "#1be436",
+		"panelSectionHeader.background": "#0e0e0e",
+		"panelSectionHeader.border": "#00ff62",
+		"panelSectionHeader.foreground": "#ff0000",
 		"panelTitle.activeBorder": "#4baede",
 		"panelTitle.activeForeground": "#ffffff",
 		"panelTitle.inactiveForeground": "#909090",
@@ -1718,12 +1722,13 @@
 		"breadcrumb.background": "#000000",
 		"breadcrumb.foreground": "#999999",
 		"breadcrumb.focusForeground": "#eeeeee",
-		"breadcrumbPicker.background": "#ff0000",
 		"breadcrumb.activeSelectionForeground": "#eeeeee",
+		"breadcrumbPicker.background": "#050505",
 		"editorGroupHeader.border": "#00000000",
 		"editorGroupHeader.tabsBackground": "#000000",
 		"editorGroupHeader.tabsBorder": "#000000",
-		"editorGroupHeader.noTabsBackground": "#ff0000",
+		// Zen Mode header
+		"editorGroupHeader.noTabsBackground": "#000000",
 		"tab.activeForeground": "#ffffff",
 		"tab.border": "#00000000",
 		"tab.activeBackground": "#00000000",
@@ -1833,7 +1838,7 @@
 		"settings.dropdownBackground": "#202020",
 		"settings.dropdownBorder": "#000000",
 		"settings.dropdownForeground": "#ffffff",
-		"settings.dropdownListBorder": "#ff0000",
+		"settings.dropdownListBorder": "#124a64",
 		"settings.focusedRowBorder": "#267ea1",
 		"settings.headerBorder": "#202020",
 		"settings.modifiedItemIndicator": "#03b8ff",

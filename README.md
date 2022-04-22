@@ -1,10 +1,9 @@
 # MGZ Dark Theme
-Created by stankovictab. 
-<br>
-Based off of the Graveyard theme.
-<br>
-Made in [Theme Studio for VSCode](https://themes.vscode.one/).
 
-`Have fun!`
+If you want something changed or if you see a color out of place, please open an issue on GitHub, I'll be happy to configure it.
+
+### `Have fun!`
 
 !["Theme Preview"](/theme.png)
+
+*Created by `@stankovictab`.*
