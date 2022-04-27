@@ -1550,6 +1550,7 @@
 		// 	}
 		// }
 	],
+	// Here's a nice color: #ff765e, use it sometimes maybe?
 	"colors": {
 		"foreground": "#CECECE",
 		"focusBorder": "#00000000",
@@ -1594,21 +1595,21 @@
 		"listFilterWidget.noMatchesOutline": "#ab282874",
 		////////////////////////////////////////////////////////////////////
 		// Tree - ?
-		"tree.indentGuidesStroke": "#8f8f8f",
-		"tree.tableColumnsBorder": "#ff00ff",
-		"tree.tableOddRowsBackground": "#ff00ff",
+		"tree.indentGuidesStroke": "#8f8f8f", // Vertical lines when hovering folders in explorer
+		"tree.tableColumnsBorder": "#494949", // When hovering rows in Keyboard Shortcuts
+		"tree.tableOddRowsBackground": "#111111", // Rows in Keyboard Shortcuts
 		////////////////////////////////////////////////////////////////////
 		// Status Bar - All the way down
 		"statusBar.background": "#000000", // #0f2146
-		"statusBar.foreground": "#a5a5a5",
+		"statusBar.foreground": "#ffffff",
 		"statusBar.border": "#303030",
 		"statusBar.focusBorder": "#000000",
 		"statusBar.debuggingBackground": "#aa4003",
 		"statusBar.debuggingForeground": "#ffffff",
 		"statusBar.debuggingBorder": "#000000",
 		"statusBar.noFolderBackground": "#000000", // #270e35
-		"statusBar.noFolderForeground": "#a5a5a5",
-		"statusBar.noFolderBorder": "#1c1c1c",
+		"statusBar.noFolderForeground": "#ffffff",
+		"statusBar.noFolderBorder": "#303030",
 		"statusBarItem.hoverBackground": "#427faa41",
 		"statusBarItem.activeBackground": "#ffffff25",
 		"statusBarItem.remoteBackground": "#000000",
@@ -1622,41 +1623,49 @@
 		"titleBar.border": "#000000",
 		// "window.activeBorder": "#00000000",
 		// "window.inactiveBorder": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		// Menubar - The menu bar at the top of the window, with File, Edit, etc. (visible if window.titleBarStyle is set to "custom")
 		"menubar.selectionForeground": "#ffffff",
-		"menubar.selectionBackground": "#111111",
-		"menubar.selectionBorder": "#e60f0f00",
-		"menu.foreground": "#dddddd",
-		"menu.background": "#111111",
+		"menubar.selectionBackground": "#222222",
+		"menubar.selectionBorder": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		// Menu - Right click menu
+		"menu.foreground": "#ffffff",
+		"menu.background": "#161616",
 		"menu.selectionForeground": "#ffffff",
 		"menu.selectionBackground": "#000000",
-		"menu.selectionBorder": "#000000",
-		"menu.separatorBackground": "#ffffff1f",
-		"menu.border": "#111111",
-		"button.background": "#2b628a",
-		"button.foreground": "#eeeeee",
+		"menu.selectionBorder": "#000000", // Should be the same as selectionBackground to avoid the gap
+		"menu.separatorBackground": "#474747", // Seperator in right click menu
+		"menu.border": "#000000",
+		////////////////////////////////////////////////////////////////////
+		// Button - An example is New Request in Thunder Client
+		"button.background": "#35709b",
+		"button.foreground": "#ffffff",
+		"button.border": "#00000000",
 		"button.hoverBackground": "#259aff",
 		"button.secondaryForeground": "#eeeeee",
 		"button.secondaryBackground": "#222222",
 		"button.secondaryHoverBackground": "#333333",
-		"input.background": "#000000",
+		////////////////////////////////////////////////////////////////////
+		// Input - An example is the search field in CTRL+SHIFT+F
+		"input.background": "#161616",
 		"input.border": "#00000000",
-		"input.foreground": "#cccccc",
+		"input.foreground": "#ffffff",
 		"inputOption.activeBackground": "#1e3366",
 		"inputOption.activeBorder": "#00000000",
 		"inputOption.activeForeground": "#ffffff",
-		"input.placeholderForeground": "#a6a6a6",
+		"input.placeholderForeground": "#797979",
 		"textLink.foreground": "#5EB3FF",
+		"textCodeBlock.background": "#ffff00", // ? This isn't the markdown code block background
+		////////////////////////////////////////////////////////////////////
+		// Editor - Where you write code
 		"editor.background": "#000000",
 		"editor.foreground": "#e4e4e4",
-		"editorLineNumber.foreground": "#3b3b3b",
-		"editorCursor.foreground": "#e4e4e4",
-		"editorCursor.background": "#000000",
 		"editor.selectionBackground": "#2c2c2c",
-		"editor.inactiveSelectionBackground": "#353535",
-		"editorWhitespace.foreground": "#4e4e4e",
-		"editor.selectionHighlightBackground": "#38c1ea3a",
+		"editor.inactiveSelectionBackground": "#1b1b1b",
+		"editor.selectionHighlightBackground": "#38c1ea2a",
 		"editor.selectionHighlightBorder": "#00000000",
-		"editor.findMatchBackground": "#052c5f",
+		"editor.findMatchBackground": "#113c74",
 		"editor.findMatchBorder": "#00000000",
 		"editor.findMatchHighlightBackground": "#eca7114f",
 		"editor.findMatchHighlightBorder": "#00000000",
@@ -1671,14 +1680,18 @@
 		"editor.wordHighlightBorder": "#ff000000",
 		"editor.lineHighlightBackground": "#1f1c2c3c",
 		"editor.lineHighlightBorder": "#00000000",
+		"editor.foldBackground": "#1b25514d",
+		"editorWhitespace.foreground": "#000000", // Tabs or spaces when selecting whitespace
+		"editorCursor.foreground": "#e4e4e4",
+		"editorCursor.background": "#000000",
+		"editorLineNumber.foreground": "#3b3b3b",
 		"editorLineNumber.activeForeground": "#57a6e6",
 		"editorLink.activeForeground": "#57a6e6",
 		"editorIndentGuide.background": "#0f0f0f",
 		"editorIndentGuide.activeBackground": "#303030",
 		"editorRuler.foreground": "#212121",
-		"editorBracketMatch.background": "#00000000",
-		"editorBracketMatch.border": "#fd6226",
-		"editor.foldBackground": "#1b25514d",
+		"editorBracketMatch.background": "#7c2b2b98",
+		"editorBracketMatch.border": "#ff814f",
 		"editorOverviewRuler.background": "#00000000",
 		"editorOverviewRuler.border": "#c0afaf00",
 		"editorError.foreground": "#ff3520",
@@ -1727,8 +1740,7 @@
 		"editorGroupHeader.border": "#00000000",
 		"editorGroupHeader.tabsBackground": "#000000",
 		"editorGroupHeader.tabsBorder": "#000000",
-		// Zen Mode header
-		"editorGroupHeader.noTabsBackground": "#000000",
+		"editorGroupHeader.noTabsBackground": "#000000", // Zen Mode header
 		"tab.activeForeground": "#ffffff",
 		"tab.border": "#00000000",
 		"tab.activeBackground": "#00000000",
