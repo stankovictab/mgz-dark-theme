@@ -1656,7 +1656,7 @@
 		"inputOption.activeForeground": "#ffffff",
 		"input.placeholderForeground": "#797979",
 		"textLink.foreground": "#5EB3FF",
-		"textCodeBlock.background": "#ffff00", // ? This isn't the markdown code block background
+		"textCodeBlock.background": "#1d335a", // Inline code snippets in hover popup documentation on a keyword (not Markdown code blocks!)
 		////////////////////////////////////////////////////////////////////
 		// Editor - Where you write code
 		"editor.background": "#000000",
