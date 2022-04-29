@@ -1660,7 +1660,7 @@
 		////////////////////////////////////////////////////////////////////
 		// Editor - Where you write code
 		"editor.background": "#000000",
-		"editor.foreground": "#e4e4e4",
+		"editor.foreground": "#ffffff", // Color of text in Plain Text file
 		"editor.selectionBackground": "#2c2c2c",
 		"editor.inactiveSelectionBackground": "#1b1b1b",
 		"editor.selectionHighlightBackground": "#38c1ea2a",
@@ -1672,19 +1672,19 @@
 		"editor.findRangeHighlightBackground": "#51515130",
 		"editor.findRangeHighlightBorder": "#00000000",
 		"editor.rangeHighlightBackground": "#5c5c5c0b",
-		"editor.rangeHighlightBorder": "#ffffff00",
-		"editor.hoverHighlightBackground": "#5996d540",
+		"editor.rangeHighlightBorder": "#00000000",
+		"editor.hoverHighlightBackground": "#65b2ff25", // Hovering a variable in the editor
 		"editor.wordHighlightStrongBackground": "#0a4464b8",
-		"editor.wordHighlightStrongBorder": "#ff000000",
-		"editor.wordHighlightBackground": "#575757b8",
-		"editor.wordHighlightBorder": "#ff000000",
-		"editor.lineHighlightBackground": "#1f1c2c3c",
+		"editor.wordHighlightStrongBorder": "#00000000",
+		"editor.wordHighlightBackground": "#57575775",
+		"editor.wordHighlightBorder": "#00000000",
+		"editor.lineHighlightBackground": "#42424242", // Current line
 		"editor.lineHighlightBorder": "#00000000",
 		"editor.foldBackground": "#1b25514d",
 		"editorWhitespace.foreground": "#000000", // Tabs or spaces when selecting whitespace
 		"editorCursor.foreground": "#e4e4e4",
 		"editorCursor.background": "#000000",
-		"editorLineNumber.foreground": "#3b3b3b",
+		"editorLineNumber.foreground": "#333333", // Line numbers
 		"editorLineNumber.activeForeground": "#57a6e6",
 		"editorLink.activeForeground": "#57a6e6",
 		"editorIndentGuide.background": "#0f0f0f",
@@ -1693,28 +1693,71 @@
 		"editorBracketMatch.background": "#7c2b2b98",
 		"editorBracketMatch.border": "#ff814f",
 		"editorOverviewRuler.background": "#00000000",
-		"editorOverviewRuler.border": "#c0afaf00",
-		"editorError.foreground": "#ff3520",
+		"editorOverviewRuler.border": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		// Editor Hover Widget - The tooltip on hover
+		// "editorHoverWidget.statusBarBackground": "#ff0000", // ???
+		// "editorHoverWidget.highlightForeground": "#ff0000", // ???
+		"editorHoverWidget.foreground": "#ffffff",
+		"editorHoverWidget.background": "#101010",
+		"editorHoverWidget.border": "#222222",
+		////////////////////////////////////////////////////////////////////
+		// Squiggles under a line of code
+		"editorError.foreground": "#ff3520", // Error squiggle
 		"editorError.background": "#00000000",
-		"editorError.border": "#ffffff00",
-		"editorWarning.foreground": "#f9d081c7",
-		"editorWarning.background": "#A9904000",
-		"editorWarning.border": "#ffffff00",
-		"editorInfo.foreground": "#5186b6",
-		"editorInfo.background": "#4490BF00",
-		"editorInfo.border": "#4490BF00",
+		"editorError.border": "#00000000",
+		"editorWarning.foreground": "#e6a732", // Warning squiggle
+		"editorWarning.background": "#00000000",
+		"editorWarning.border": "#00000000",
+		"editorInfo.foreground": "#5186b6", // Info squiggle
+		"editorInfo.background": "#00000000",
+		"editorInfo.border": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		// Toolbar - Color of, for example, the little stage and revert changes buttons in the Source Control panel
+		"toolbar.activeBackground": "#7e7e7e", // Pressing down
+		"toolbar.hoverBackground": "#464646", // Hovering
+		"toolbar.hoverOutline": "#00000000", // Dotted outline when hovering
+		// TODO: How to change the color of the yellow highlighted variable values in debug mode?
+		////////////////////////////////////////////////////////////////////
+		// Editor Inlay Hint - Inlay hints are small text hints that appear when passing arguments to functions, they tell you the name of the inserted parameter (in Java)
+		// Something like Integer.valueOf(/* s: */ '123', /* radix: */ 10)
+		"editorInlayHint.background": "#181818",
+		"editorInlayHint.foreground": "#a3a3a3",
+		// "editorInlayHint.parameterBackground": "#ff0000",
+		// "editorInlayHint.parameterForeground": "#ff0000",
+		// "editorInlayHint.typeBackground": "#00ff00", // TypeScript only
+		// "editorInlayHint.typeForeground": "#00ff00", // TypeScript only
+		////////////////////////////////////////////////////////////////////
+		// Code Lens - The number of implementations or references of a class or method above its name, similar to how it is in Visual Studio and C# by default
+		// For Java, the setting java.implementationsCodeLens.enabled needs to be on
+		"editorCodeLens.foreground": "#aaaaaa",
+		////////////////////////////////////////////////////////////////////
+		// Editor Gutter - The vertical line with line numbers on the left side
 		"editorGutter.background": "#000000",
 		"editorGutter.modifiedBackground": "#418ae8",
 		"editorGutter.addedBackground": "#8de029",
 		"editorGutter.deletedBackground": "#c41f26",
-		"editorGutter.foldingControlForeground": "#a3a3a3",
-		"editorCodeLens.foreground": "#cfcfcf9b",
-		"editorGroup.border": "#43434370",
+		"editorGutter.foldingControlForeground": "#a3a3a3", // ???
+		"editorGutter.commentRangeForeground": "#a3a3a3", // ???
+		"diffEditorGutter.insertedLineBackground": "#287a1d28", // When opening diff of a line, the gutter in the preview
+		"diffEditorGutter.removedLineBackground": "#ff000028", // When opening diff of a line, the gutter in the preview
+		////////////////////////////////////////////////////////////////////
+		// Diff Editor - ?
 		"diffEditor.insertedTextBackground": "#6ea33838",
 		"diffEditor.insertedTextBorder": "#75ab5712",
 		"diffEditor.removedTextBackground": "#d33b3b3e",
 		"diffEditor.removedTextBorder": "#8a414122",
 		"diffEditor.border": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		// Editor Group - When you split the editor into two parts - you can have multiple tabs in an editor group
+		"editorGroup.dropBackground": "#55555560", // Color of the highlight when you drag the tab into the editor to create a new editor group
+		"editorGroup.border": "#2b2b2b", // Border between editor groups
+		"editorGroup.focusedEmptyBorder": "#424242", // When you create a new editor group with View: New Editor Group Above, and click on the empty group
+		"editorGroup.emptyBackground": "#000000", // Background of an empty editor group
+		"editorGroupHeader.border": "#000000", // Bottom line of tabs in editor group
+		"editorGroupHeader.tabsBackground": "#000000",
+		"editorGroupHeader.tabsBorder": "#000000",
+		"editorGroupHeader.noTabsBackground": "#000000", // Tab bar in Zen Mode, for example
 		////////////////////////////////////////////////////////////////////
 		// Panel - The panel that holds terminal, output, problems
 		"panel.background": "#000000",
@@ -1725,11 +1768,17 @@
 		"panelSectionHeader.background": "#0e0e0e",
 		"panelSectionHeader.border": "#00ff62",
 		"panelSectionHeader.foreground": "#ff0000",
+		"panelSection.border": "#21212158",
 		"panelTitle.activeBorder": "#4baede",
 		"panelTitle.activeForeground": "#ffffff",
 		"panelTitle.inactiveForeground": "#909090",
 		"badge.background": "#2c6496",
 		"badge.foreground": "#ffffff",
+		////////////////////////////////////////////////////////////////////
+		// Banner - ? Should be below the title bar, but idk when it's shown
+		// "banner.background": "#ff0000",
+		// "banner.foreground": "#ff0000",
+		// "banner.iconForeground": "#ff0000",
 		////////////////////////////////////////////////////////////////////
 		// Breadcrumbs - File paths at the top of the editor
 		"breadcrumb.background": "#000000",
@@ -1737,36 +1786,37 @@
 		"breadcrumb.focusForeground": "#eeeeee",
 		"breadcrumb.activeSelectionForeground": "#eeeeee",
 		"breadcrumbPicker.background": "#050505",
-		"editorGroupHeader.border": "#00000000",
-		"editorGroupHeader.tabsBackground": "#000000",
-		"editorGroupHeader.tabsBorder": "#000000",
-		"editorGroupHeader.noTabsBackground": "#000000", // Zen Mode header
-		"tab.activeForeground": "#ffffff",
+		////////////////////////////////////////////////////////////////////
+		// Tabs - At the top of the editor
 		"tab.border": "#00000000",
-		"tab.activeBackground": "#00000000",
+		"tab.activeForeground": "#ffffff",
+		"tab.activeBackground": "#0e0e0e",
 		"tab.activeBorder": "#4baede",
 		"tab.activeBorderTop": "#00000000",
-		"tab.inactiveBackground": "#000000",
+		// "tab.activeModifiedBorder": "#ff0000", // ???
 		"tab.inactiveForeground": "#999999",
-		"tab.hoverBackground": "#0a0a0a",
+		"tab.inactiveBackground": "#000000",
+		"tab.hoverBackground": "#171717",
 		"tab.hoverForeground": "#ffffff",
 		"tab.hoverBorder": "#00000000",
-		"scrollbarSlider.background": "#a1a1a154",
-		"scrollbarSlider.hoverBackground": "#c9c9c97a",
-		"scrollbarSlider.activeBackground": "#c9c9c9c9",
-		"progressBar.background": "#7ec2ff",
+		"progressBar.background": "#4baede", // This is below the tab bar, you can see it when starting debugging or tests for example
+		"scrollbarSlider.background": "#313131", // This is the slider at the bottom of the tab bar, seen when you have too many opened tabs, but also when you hover on something in the editor, if the docs are too large
+		"scrollbarSlider.hoverBackground": "#757575",
+		"scrollbarSlider.activeBackground": "#e7e7e7",
 		////////////////////////////////////////////////////////////////////
 		// Editor Widget - The CTRL+P Menu
-		"widget.shadow": "#00000000",
-		// "editorWidget.border": "#ff0000",
 		"editorWidget.foreground": "#ffffff",
 		"editorWidget.background": "#141414",
+		// "editorWidget.border": "#ff0000", // ???
 		"editorWidget.resizeBorder": "#87cbfdc7",
+		"widget.shadow": "#00000000", // Shadow around the CTRL+F popup widget
 		"pickerGroup.border": "#4f4f4f58",
 		"pickerGroup.foreground": "#87cbfdc7",
 		"debugToolBar.background": "#1a1a1a",
 		"debugToolBar.border": "#00000000",
-		"notifications.foreground": "#cccccc",
+		////////////////////////////////////////////////////////////////////
+		// Notifications - The little pop-up that appears at the bottom right of the screen
+		"notifications.foreground": "#ffffff",
 		"notifications.background": "#0a0a0a",
 		"notificationToast.border": "#00000000",
 		"notificationsErrorIcon.foreground": "#ff3854",
@@ -1776,6 +1826,8 @@
 		"notificationCenterHeader.foreground": "#eaeaea",
 		"notificationCenterHeader.background": "#060606",
 		"notifications.border": "#0d0d0d00",
+		////////////////////////////////////////////////////////////////////
+		// Git Decorations
 		"gitDecoration.addedResourceForeground": "#a1ffb2",
 		"gitDecoration.conflictingResourceForeground": "#95a5ff",
 		"gitDecoration.deletedResourceForeground": "#ff6e6e",
@@ -1785,9 +1837,12 @@
 		"gitDecoration.stageModifiedResourceForeground": "#4dafd6",
 		"gitDecoration.submoduleResourceForeground": "#8db9e2",
 		"gitDecoration.untrackedResourceForeground": "#73c991",
-		"editorMarkerNavigation.background": "#060606",
-		"editorMarkerNavigationError.background": "#601f1f",
-		"editorMarkerNavigationWarning.background": "#998227",
+		////////////////////////////////////////////////////////////////////
+		// Editor Marker Navigation - When hovering over a warning or error, and you click on View Problem, the window that appears
+		// The background here is actually the color of the lines
+		"editorMarkerNavigation.background": "#000000",
+		"editorMarkerNavigationError.background": "#921b1b",
+		"editorMarkerNavigationWarning.background": "#ffed59",
 		"editorMarkerNavigationInfo.background": "#1e5f99",
 		"merge.currentHeaderBackground": "#367366",
 		"merge.currentContentBackground": "#27403B",
@@ -1800,30 +1855,30 @@
 		"editorSuggestWidget.foreground": "#8da5b6",
 		"editorSuggestWidget.highlightForeground": "#15c0f5",
 		"editorSuggestWidget.selectedBackground": "#1b2336",
-		"editorHoverWidget.foreground": "#dbdbdb",
-		"editorHoverWidget.background": "#080808",
-		"editorHoverWidget.border": "#00000000",
-		"peekView.border": "#7bb4d900",
-		"peekViewEditor.background": "#0a0a0a",
-		"peekViewEditorGutter.background": "#0a0a0a",
-		"peekViewEditor.matchHighlightBackground": "#ffb30056",
+		////////////////////////////////////////////////////////////////////
+		// Peek View - When you right click a method, go to Peek, Peek Definition, the window that appears - basically the same as Go To Definition, it's just in this popup
+		// Or just when you click on the Code Lens number of references of a method
+		// The Editor is the left part, the Result is the right part
+		"peekView.border": "#324a77",
+		"peekViewEditor.background": "#070707",
+		"peekViewEditorGutter.background": "#070707",
+		"peekViewEditor.matchHighlightBackground": "#a579132f",
 		"peekViewEditor.matchHighlightBorder": "#00000000",
-		"peekViewResult.background": "#111111",
+		"peekViewResult.background": "#070707",
 		"peekViewResult.fileForeground": "#b0f0ff",
-		"peekViewResult.lineForeground": "#bbbbbb",
-		"peekViewResult.matchHighlightBackground": "#ff3a254d",
-		"peekViewResult.selectionBackground": "#3399ff33",
+		"peekViewResult.lineForeground": "#ffffff",
+		"peekViewResult.matchHighlightBackground": "#df521070",
+		"peekViewResult.selectionBackground": "#ffffff25",
 		"peekViewResult.selectionForeground": "#ffffff",
-		"peekViewTitle.background": "#111111",
-		"peekViewTitleDescription.foreground": "#ccccccb3",
-		"peekViewTitleLabel.foreground": "#cbfdff",
-		"icon.foreground": "#CECECE",
+		"peekViewTitle.background": "#070707",
+		"peekViewTitleDescription.foreground": "#a3a3a3",
+		"peekViewTitleLabel.foreground": "#ffffff",
+		////////////////////////////////////////////////////////////////////
+		// ???????????????????????
+		"icon.foreground": "#cecece",
 		"checkbox.background": "#000000",
 		"checkbox.foreground": "#cccccc",
 		"checkbox.border": "#00000000",
-		"dropdown.background": "#000000",
-		"dropdown.foreground": "#cccccc",
-		"dropdown.border": "#00000000",
 		"minimapGutter.addedBackground": "#8de029",
 		"minimapGutter.modifiedBackground": "#418ae8",
 		"minimapGutter.deletedBackground": "#c41f26",
@@ -1832,12 +1887,15 @@
 		"minimap.errorHighlight": "#ff3520",
 		"minimap.warningHighlight": "#f9d081c7",
 		"minimap.background": "#000000",
-		"editorGroup.emptyBackground": "#000000",
-		"panelSection.border": "#21212158",
 		"walkThrough.embeddedEditorBackground": "#00000050",
-		"editorGutter.commentRangeForeground": "#a3a3a3",
 		"debugExceptionWidget.background": "#080808",
 		"debugExceptionWidget.border": "#00000000",
+		////////////////////////////////////////////////////////////////////
+		// Dropdown - An example is Panel -> Output -> Change output dropdown
+		"dropdown.background": "#111111",
+		"dropdown.foreground": "#ffffff",
+		"dropdown.border": "#111111",
+		"dropdown.listBackground": "#181818",
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
