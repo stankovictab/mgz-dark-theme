@@ -29,20 +29,6 @@
 			}
 		},
 		{
-			"name": "regexp constant character-class",
-			"scope": "constant.other.character-class.regexp",
-			"settings": {
-				"foreground": "#cf6ecd"
-			}
-		},
-		{
-			"name": "regexp operator.quantifier",
-			"scope": "keyword.operator.quantifier.regexp",
-			"settings": {
-				"foreground": "#58f5ab"
-			}
-		},
-		{
 			"name": "Text",
 			"scope": "variable.parameter.function",
 			"settings": {
@@ -85,41 +71,6 @@
 			}
 		},
 		{
-			"name": "js/ts punctuation separator key-value",
-			"scope": "punctuation.separator.key-value",
-			"settings": {
-				"foreground": "#e4e4e4"
-			}
-		},
-		{
-			"name": "js/ts import keyword",
-			"scope": "keyword.operator.expression.import",
-			"settings": {
-				"foreground": "#ff6176"
-			}
-		},
-		{
-			"name": "math js/ts",
-			"scope": "support.constant.math",
-			"settings": {
-				"foreground": "#1babff"
-			}
-		},
-		{
-			"name": "math property js/ts",
-			"scope": "support.constant.property.math",
-			"settings": {
-				"foreground": "#58f5ab"
-			}
-		},
-		{
-			"name": "js/ts variable.other.constant",
-			"scope": "variable.other.constant",
-			"settings": {
-				"foreground": "#1babff"
-			}
-		},
-		{
 			"name": "java type",
 			"scope": [
 				"storage.type.annotation.java",
@@ -130,13 +81,6 @@
 			}
 		},
 		{
-			"name": "java instanceof",
-			"scope": "keyword.operator.instanceof.java",
-			"settings": {
-				"foreground": "#a584ff"
-			}
-		},
-		{
 			"name": "java variable.name",
 			"scope": "meta.definition.variable.name.java",
 			"settings": {
@@ -144,38 +88,10 @@
 			}
 		},
 		{
-			"name": "operator logical",
-			"scope": "keyword.operator.logical",
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "operator bitwise",
-			"scope": "keyword.operator.bitwise",
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "operator channel",
-			"scope": "keyword.operator.channel",
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
 			"name": "support.constant.property-value.scss",
 			"scope": "support.constant.property-value.scss,support.constant.property-value.css",
 			"settings": {
 				"foreground": "#58f5ab"
-			}
-		},
-		{
-			"name": "CSS/SCSS/LESS Operators",
-			"scope": "keyword.operator.css,keyword.operator.scss,keyword.operator.less",
-			"settings": {
-				"foreground": "#f9c64e"
 			}
 		},
 		{
@@ -200,79 +116,10 @@
 			}
 		},
 		{
-			"name": "js/ts module",
-			"scope": "support.module.node,support.type.object.module,support.module.node",
-			"settings": {
-				"foreground": "#1babff"
-			}
-		},
-		{
 			"name": "entity.name.type.module",
 			"scope": "entity.name.type.module",
 			"settings": {
 				"foreground": "#1babff"
-			}
-		},
-		{
-			"name": "js/ts json",
-			"scope": "support.constant.json",
-			"settings": {
-				"foreground": "#58f5ab"
-			}
-		},
-		{
-			"name": "js/ts Keyword",
-			"scope": [
-				"keyword.operator.expression.instanceof",
-				"keyword.operator.new",
-				"keyword.operator.ternary",
-				"keyword.operator.optional",
-				"keyword.operator.expression.keyof"
-			],
-			"settings": {
-				"foreground": "#a584ff"
-			}
-		},
-		{
-			"name": "js/ts console",
-			"scope": "support.type.object.console",
-			"settings": {
-				"foreground": "#cf6ecd"
-			}
-		},
-		{
-			"name": "js/ts support.variable.property.process",
-			"scope": "support.variable.property.process",
-			"settings": {
-				"foreground": "#58f5ab"
-			}
-		},
-		{
-			"name": "js console function",
-			"scope": "entity.name.function,support.function.console",
-			"settings": {
-				"foreground": "#ff6176"
-			}
-		},
-		{
-			"name": "keyword.operator.misc.rust",
-			"scope": "keyword.operator.misc.rust",
-			"settings": {
-				"foreground": "#e4e4e4"
-			}
-		},
-		{
-			"name": "keyword.operator.sigil.rust",
-			"scope": "keyword.operator.sigil.rust",
-			"settings": {
-				"foreground": "#a584ff"
-			}
-		},
-		{
-			"name": "operator",
-			"scope": "keyword.operator.delete",
-			"settings": {
-				"foreground": "#a584ff"
 			}
 		},
 		{
@@ -290,31 +137,10 @@
 			}
 		},
 		{
-			"name": "keyword.operator",
-			"scope": "keyword.operator.arithmetic,keyword.operator.comparison,keyword.operator.decrement,keyword.operator.increment,keyword.operator.relational",
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
 			"name": "Punctuation",
 			"scope": "punctuation.separator.delimiter",
 			"settings": {
 				"foreground": "#e4e4e4"
-			}
-		},
-		{
-			"name": "Operators",
-			"scope": "keyword.operator",
-			"settings": {
-				"foreground": "#e4e4e4"
-			}
-		},
-		{
-			"name": "Compound Assignment Operators",
-			"scope": "keyword.operator.assignment.compound",
-			"settings": {
-				"foreground": "#a584ff"
 			}
 		},
 		{
@@ -329,18 +155,6 @@
 			"scope": "token.package",
 			"settings": {
 				"foreground": "#e4e4e4"
-			}
-		},
-		{
-			"name": "Functions",
-			"scope": [
-				"entity.name.function",
-				"meta.require",
-				"support.function.any-method",
-				"variable.function"
-			],
-			"settings": {
-				"foreground": "#ff6176"
 			}
 		},
 		{
@@ -366,7 +180,7 @@
 		},
 		{
 			"name": "Control Elements",
-			"scope": "control.elements, keyword.operator.less",
+			"scope": "control.elements",
 			"settings": {
 				"foreground": "#58f5ab"
 			}
@@ -379,22 +193,8 @@
 			}
 		},
 		{
-			"name": "Storage",
-			"scope": "storage",
-			"settings": {
-				"foreground": "#4e79f0"
-			}
-		},
-		{
 			"name": "Storage JS TS",
 			"scope": "token.storage",
-			"settings": {
-				"foreground": "#a584ff"
-			}
-		},
-		{
-			"name": "Source Js Keyword Operator Delete,source Js Keyword Operator In,source Js Keyword Operator Of,source Js Keyword Operator Instanceof,source Js Keyword Operator New,source Js Keyword Operator Typeof,source Js Keyword Operator Void",
-			"scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.new,keyword.operator.expression.typeof,keyword.operator.expression.void",
 			"settings": {
 				"foreground": "#a584ff"
 			}
@@ -404,13 +204,6 @@
 			"scope": "token.storage.type.java",
 			"settings": {
 				"foreground": "#ff00ff"
-			}
-		},
-		{
-			"name": "Support",
-			"scope": "support.function",
-			"settings": {
-				"foreground": "#f9c64e"
 			}
 		},
 		{
@@ -446,13 +239,6 @@
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#58f5ab"
-			}
-		},
-		{
-			"name": "Attributes",
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "#25d4eb"
 			}
 		},
 		{
@@ -550,20 +336,6 @@
 			}
 		},
 		{
-			"name": "Regular Expressions",
-			"scope": "string.regexp",
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "Escape Characters",
-			"scope": "constant.character.escape",
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
 			"name": "Embedded",
 			"scope": "punctuation.section.embedded, variable.interpolation",
 			"settings": {
@@ -575,41 +347,6 @@
 			"scope": "punctuation.section.embedded.begin,punctuation.section.embedded.end",
 			"settings": {
 				"foreground": "#a584ff"
-			}
-		},
-		{
-			"name": "illegal",
-			"scope": "invalid.illegal",
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "illegal",
-			"scope": "invalid.illegal.bad-ampersand.html",
-			"settings": {
-				"foreground": "#e4e4e4"
-			}
-		},
-		{
-			"name": "Broken",
-			"scope": "invalid.broken",
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "Deprecated",
-			"scope": "invalid.deprecated",
-			"settings": {
-				"foreground": "#ffffff"
-			}
-		},
-		{
-			"name": "Unimplemented",
-			"scope": "invalid.unimplemented",
-			"settings": {
-				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -638,13 +375,6 @@
 			"scope": "source.json meta.structure.dictionary.json > constant.language.json,source.json meta.structure.array.json > constant.language.json",
 			"settings": {
 				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "parameter function js/ts",
-			"scope": "function.parameter",
-			"settings": {
-				"foreground": "#e4e4e4"
 			}
 		},
 		{
@@ -769,15 +499,6 @@
 			}
 		},
 		{
-			"name": "Import module JS",
-			"scope": [
-				"keyword.operator.module"
-			],
-			"settings": {
-				"foreground": "#a584ff"
-			}
-		},
-		{
 			"name": "js Flowtype",
 			"scope": [
 				"support.type.type.flowtype"
@@ -850,48 +571,12 @@
 			}
 		},
 		{
-			"name": "js operator.assignment",
-			"scope": [
-				"keyword.operator.assignment"
-			],
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "elm prelude",
-			"scope": [
-				"support.type.prelude.elm"
-			],
-			"settings": {
-				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "elm constant",
-			"scope": [
-				"support.constant.elm"
-			],
-			"settings": {
-				"foreground": "#58f5ab"
-			}
-		},
-		{
 			"name": "template literal",
 			"scope": [
 				"punctuation.quasi.element"
 			],
 			"settings": {
 				"foreground": "#a584ff"
-			}
-		},
-		{
-			"name": "html/pug (jade) escaped characters and entities",
-			"scope": [
-				"constant.character.entity"
-			],
-			"settings": {
-				"foreground": "#cf6ecd"
 			}
 		},
 		{
@@ -902,15 +587,6 @@
 			],
 			"settings": {
 				"foreground": "#f9c64e"
-			}
-		},
-		{
-			"name": "Ini Default Text",
-			"scope": [
-				"source.ini"
-			],
-			"settings": {
-				"foreground": "#a0e65c"
 			}
 		},
 		{
@@ -971,7 +647,7 @@
 			}
 		},
 		{
-			"name": "String",
+			"name": "String, the color of this text",
 			"scope": "string",
 			"settings": {
 				"foreground": "#58F5AB" // "#c7ff6e" "#71d6d6"
@@ -992,10 +668,22 @@
 			}
 		},
 		{
-			"name": "Constants, like value in @GetMapping(value = ...)",
-			"scope": "constant",
+			"name": "Storage - like public class, private, void, ... in Java",
+			"scope": "storage",
 			"settings": {
-				"foreground": "#25d4eb"
+				"foreground": "#4e79f0"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"meta.require",
+				"support.function.any-method",
+				"variable.function"
+			],
+			"settings": {
+				"foreground": "#ff6176"
 			}
 		},
 		{
@@ -1020,10 +708,24 @@
 			}
 		},
 		{
+			"name": "Constants, like value in @GetMapping(value = ...)",
+			"scope": "constant",
+			"settings": {
+				"foreground": "#2ADEDE"
+			}
+		},
+		{
 			"name": "Keywords, like in a SQL file, or import in Java",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#25d4eb"
+				"foreground": "#2ADEDE"
+			}
+		},
+		{
+			"name": "Attributes - TODO: ????????",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#2ADEDE"
 			}
 		},
 		{
@@ -1082,6 +784,146 @@
 			"scope": "support.type.property-name.json punctuation",
 			"settings": {
 				"foreground": "#8edfff"
+			}
+		},
+		{
+			"name": "Escape Characters, like \n",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#f9c64e"
+			}
+		},
+		////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
+		// Operators
+		{
+			"name": "Operators Parent",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "The : in TypeScript, like a: number - useful for distinguishing from a TypeScript type and a JSON object assignment",
+			"scope": "keyword.operator.type",
+			"settings": {
+				"foreground": "#ff765e" // #c058ce
+			}
+		},
+		{
+			"name": "Assignment Operator, basically =",
+			"scope": [
+				"keyword.operator.assignment"
+			],
+			"settings": {
+				"foreground": "#f9c64e"
+			}
+		},
+		{
+			"name": "Compound Assignment Operators, like += and -=",
+			"scope": "keyword.operator.assignment.compound",
+			"settings": {
+				"foreground": "#ff765e" // #a584ff
+			}
+		},
+		{
+			"name": "Logical Operator, like &&",
+			"scope": "keyword.operator.logical",
+			"settings": {
+				"foreground": "#f9c64e"
+			}
+		},
+		{
+			"name": "Bitwise Operator, like &",
+			"scope": "keyword.operator.bitwise",
+			"settings": {
+				"foreground": "#8df94e"
+			}
+		},
+		{
+			"name": "Comparison Operator, like ==",
+			"scope": "keyword.operator.comparison",
+			"settings": {
+				"foreground": "#f9c64e"
+			}
+		},
+		{
+			"name": "Relational Operator, like < in a < 2",
+			"scope": "keyword.operator.relational",
+			"settings": {
+				"foreground": "#f9c64e"
+			}
+		},
+		{
+			"name": "Arithmetic Operator, like + or -",
+			"scope": "keyword.operator.arithmetic",
+			"settings": {
+				"foreground": "#f9c64e"
+			}
+		},
+		{
+			"name": "-- in a--",
+			"scope": "keyword.operator.decrement",
+			"settings": {
+				"foreground": "#f94e4e"
+			}
+		},
+		{
+			"name": "++ in a++",
+			"scope": "keyword.operator.increment",
+			"settings": {
+				"foreground": "#8df94e"
+			}
+		},
+		{
+			"name": "The new in const t = new Type()",
+			"scope": "keyword.operator.new",
+			"settings": {
+				"foreground": "#8df94e"
+			}
+		},
+		{
+			"name": "The delete keyword in C++",
+			"scope": "keyword.operator.delete",
+			"settings": {
+				"foreground": "#f94e4e"
+			}
+		},
+		{
+			"name": "typeof() in JavaScript",
+			"scope": "keyword.operator.expression.typeof",
+			"settings": {
+				"foreground": "#a584ff"
+			}
+		},
+		{
+			"name": "TODO: ????????????????",
+			"scope": "keyword.operator.channel",
+			"settings": {
+				"foreground": "#a584ff"
+			}
+		},
+		{
+			"name": "TODO: ??????????? Import module JS????????????",
+			"scope": [
+				"keyword.operator.module"
+			],
+			"settings": {
+				"foreground": "#ff0000" // #a584ff
+			}
+		},
+		{
+			"name": "delete, in, of, instanceof, and void in JavaScript",
+			"scope": "keyword.operator.expression.delete,keyword.operator.expression.in,keyword.operator.expression.of,keyword.operator.expression.instanceof,keyword.operator.expression.void",
+			"settings": {
+				"foreground": "#a584ff"
+			}
+		},
+		{
+			"name": "The addEventListener() function in JavaScript",
+			"scope": "support.function",
+			"settings": {
+				"foreground": "#f9c64e"
 			}
 		},
 		////////////////////////////////////////////////////////////////////
@@ -1158,7 +1000,7 @@
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
 		{
-			"name": "Source ??????????????",
+			"name": "Source TODO: ??????????????",
 			"scope": "source",
 			"settings": {
 				"foreground": "#ffffff"
@@ -1173,9 +1015,28 @@
 		},
 		////////////////////////////////////////////////////////////////////
 		////////////////////////////////////////////////////////////////////
+		// INI
+		{
+			"name": "INI Section",
+			"scope": "entity.name.section",
+			"settings": {
+				"foreground": "#FF6176"
+			}
+		},
+		{
+			"name": "INI Values",
+			"scope": [
+				"source.ini"
+			],
+			"settings": {
+				"foreground": "#2d93f3"
+			}
+		},
+		////////////////////////////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////
 		// Python-esque
 		{
-			"name": "Keyword Control, like from and import in Python",
+			"name": "Keyword Control, like from and import in Python (and JS/TS)",
 			"scope": "keyword.control",
 			"settings": {
 				"foreground": "#a584ff"
@@ -1253,14 +1114,6 @@
 		// 	}
 		// },
 		// {
-		// 	"name": "Storage",
-		// 	"scope": "storage",
-		// 	"settings": {
-		// 		"fontStyle": "",
-		// 		"foreground": "#F92672"
-		// 	}
-		// },
-		// {
 		// 	"name": "Storage type",
 		// 	"scope": "storage.type",
 		// 	"settings": {
@@ -1282,14 +1135,6 @@
 		// 	"settings": {
 		// 		"fontStyle": "italic ",
 		// 		"foreground": "#0669aF"
-		// 	}
-		// },
-		// {
-		// 	"name": "Function name",
-		// 	"scope": "entity.name.function",
-		// 	"settings": {
-		// 		"fontStyle": "",
-		// 		"foreground": "#A6E22E"
 		// 	}
 		// },
 		// {
@@ -1566,7 +1411,7 @@
 		"activityBar.background": "#000000",
 		"activityBar.inactiveForeground": "#8f8f8f",
 		"activityBarBadge.foreground": "#ffffff",
-		"activityBarBadge.background": "#0c4374",
+		"activityBarBadge.background": "#1e5686",
 		"activityBar.border": "#00000000",
 		////////////////////////////////////////////////////////////////////
 		// Side Bar - The one right of the activity bar, with the explorer folders
@@ -1764,7 +1609,7 @@
 		"panel.border": "#303030",
 		"panel.dropBorder": "#4baede",
 		"panelInput.border": "#ff0000",
-		"panelSection.dropBackground": "#ff0000",
+		"panelSection.dropBackground": "#58585856",
 		"panelSectionHeader.background": "#0e0e0e",
 		"panelSectionHeader.border": "#00ff62",
 		"panelSectionHeader.foreground": "#ff0000",
@@ -1772,7 +1617,7 @@
 		"panelTitle.activeBorder": "#4baede",
 		"panelTitle.activeForeground": "#ffffff",
 		"panelTitle.inactiveForeground": "#909090",
-		"badge.background": "#2c6496",
+		"badge.background": "#1e5686",
 		"badge.foreground": "#ffffff",
 		////////////////////////////////////////////////////////////////////
 		// Banner - ? Should be below the title bar, but idk when it's shown
