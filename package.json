@@ -28,6 +28,11 @@
 				"label": "MGZ Dark Theme",
 				"uiTheme": "vs-dark",
 				"path": "./themes/MGZ Dark Theme-color-theme.json"
+			},
+			{
+				"label": "MGZ Gray Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/MGZ Gray Theme-color-theme.json"
 			}
 		]
 	}
