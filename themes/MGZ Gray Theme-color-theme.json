@@ -1408,7 +1408,7 @@
 		"activityBar.activeBackground": "#272727",
 		"activityBar.activeFocusBorder": "#ffffff",
 		"activityBar.dropBorder": "#50A7FF",
-		"activityBar.background": "#272727",
+		"activityBar.background": "#1d1d1d",
 		"activityBar.inactiveForeground": "#8f8f8f",
 		"activityBarBadge.foreground": "#ffffff",
 		"activityBarBadge.background": "#1e5686",
@@ -1601,7 +1601,7 @@
 		"editorGroup.emptyBackground": "#000000", // Background of an empty editor group
 		"editorGroupHeader.border": "#00000000", // Bottom line of tabs in editor group
 		"editorGroupHeader.tabsBackground": "#181818", // Tab bar background
-		"editorGroupHeader.tabsBorder": "#000000",
+		"editorGroupHeader.tabsBorder": "#00000000",
 		"editorGroupHeader.noTabsBackground": "#000000", // Tab bar in Zen Mode, for example
 		////////////////////////////////////////////////////////////////////
 		// Panel - The panel that holds terminal, output, problems
@@ -1626,7 +1626,7 @@
 		// "banner.iconForeground": "#ff0000",
 		////////////////////////////////////////////////////////////////////
 		// Breadcrumbs - File paths at the top of the editor
-		"breadcrumb.background": "#000000",
+		"breadcrumb.background": "#1d1d1d",
 		"breadcrumb.foreground": "#999999",
 		"breadcrumb.focusForeground": "#eeeeee",
 		"breadcrumb.activeSelectionForeground": "#eeeeee",
@@ -1731,7 +1731,7 @@
 		"minimap.selectionHighlight": "#0d0d0d",
 		"minimap.errorHighlight": "#ff3520",
 		"minimap.warningHighlight": "#f9d081c7",
-		"minimap.background": "#000000",
+		"minimap.background": "#2b2b2b",
 		"walkThrough.embeddedEditorBackground": "#00000050",
 		"debugExceptionWidget.background": "#080808",
 		"debugExceptionWidget.border": "#00000000",
