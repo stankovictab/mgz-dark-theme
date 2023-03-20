@@ -1465,13 +1465,13 @@
 		"statusBar.focusBorder": "#272727",
 		"statusBar.debuggingBackground": "#aa4003",
 		"statusBar.debuggingForeground": "#ffffff",
-		"statusBar.debuggingBorder": "#000000",
+		"statusBar.debuggingBorder": "#00000000",
 		"statusBar.noFolderBackground": "#000000", // #270e35
 		"statusBar.noFolderForeground": "#ffffff",
-		"statusBar.noFolderBorder": "#303030",
+		"statusBar.noFolderBorder": "#00000000",
 		"statusBarItem.hoverBackground": "#427faa41",
 		"statusBarItem.activeBackground": "#ffffff25",
-		"statusBarItem.remoteBackground": "#000000",
+		"statusBarItem.remoteBackground": "#272727", // The >< icon when connected to a remote server or debugging
 		"statusBarItem.remoteForeground": "#5fcbff",
 		////////////////////////////////////////////////////////////////////
 		// Title Bar - When window.titleBarStyle is set to "custom", the top bar (with minimize, maximize, etc)
@@ -1495,7 +1495,7 @@
 		"menu.selectionBackground": "#000000",
 		"menu.selectionBorder": "#000000", // Should be the same as selectionBackground to avoid the gap
 		"menu.separatorBackground": "#474747", // Seperator in right click menu
-		"menu.border": "#000000",
+		"menu.border": "#474747",
 		////////////////////////////////////////////////////////////////////
 		// Button - An example is New Request in Thunder Client
 		"button.background": "#35709b",
@@ -1507,7 +1507,7 @@
 		"button.secondaryHoverBackground": "#333333",
 		////////////////////////////////////////////////////////////////////
 		// Input - An example is the search field in CTRL+SHIFT+F
-		"input.background": "#161616",
+		"input.background": "#101010",
 		"input.border": "#00000000",
 		"input.foreground": "#ffffff",
 		"inputOption.activeBackground": "#1e3366",
@@ -1520,14 +1520,14 @@
 		// Editor - Where you write code
 		"editor.background": "#272727",
 		"editor.foreground": "#ffffff", // Color of text in Plain Text file
-		"editor.selectionBackground": "#2c2c2c",
+		"editor.selectionBackground": "#171717",
 		"editor.inactiveSelectionBackground": "#1b1b1b",
 		"editor.selectionHighlightBackground": "#38c1ea2a",
 		"editor.selectionHighlightBorder": "#00000000",
 		"editor.findMatchBackground": "#113c74",
 		"editor.findMatchBorder": "#00000000",
 		"editor.findMatchHighlightBackground": "#eca7114f",
-		"editor.findMatchHighlightBorder": "#00000000",
+		"editor.findMatchHighlightBorder": "#5e5e5e",
 		"editor.findRangeHighlightBackground": "#51515130",
 		"editor.findRangeHighlightBorder": "#00000000",
 		"editor.rangeHighlightBackground": "#5c5c5c0b",
@@ -1540,7 +1540,7 @@
 		"editor.lineHighlightBackground": "#42424242", // Current line
 		"editor.lineHighlightBorder": "#00000000",
 		"editor.foldBackground": "#1b25514d",
-		"editorWhitespace.foreground": "#9c9c9c", // Tabs or spaces when selecting whitespace
+		"editorWhitespace.foreground": "#474747", // Tabs or spaces when selecting whitespace
 		"editorCursor.foreground": "#e4e4e4",
 		"editorCursor.background": "#000000",
 		"editorLineNumber.foreground": "#9c9c9c", // Line numbers
@@ -1622,7 +1622,7 @@
 		"panel.background": "#181818",
 		"panel.border": "#181818",
 		"panel.dropBorder": "#4baede",
-		"panelInput.border": "#ff0000",
+		"panelInput.border": "#cccccc", // Filter box outline in Debug Console
 		"panelSection.dropBackground": "#58585856",
 		"panelSectionHeader.background": "#0e0e0e",
 		"panelSectionHeader.border": "#00ff62",
