@@ -1612,7 +1612,7 @@
 		"editorGroup.dropBackground": "#55555560", // Color of the highlight when you drag the tab into the editor to create a new editor group
 		"editorGroup.border": "#2b2b2b", // Border between editor groups
 		"editorGroup.focusedEmptyBorder": "#424242", // When you create a new editor group with View: New Editor Group Above, and click on the empty group
-		"editorGroup.emptyBackground": "#000000", // Background of an empty editor group
+		"editorGroup.emptyBackground": "#131313", // Background of an empty editor group
 		"editorGroupHeader.border": "#000000", // Bottom line of tabs in editor group
 		"editorGroupHeader.tabsBackground": "#000000",
 		"editorGroupHeader.tabsBorder": "#000000",
