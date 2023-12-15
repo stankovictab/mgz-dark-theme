@@ -1719,17 +1719,17 @@
 		// Or just when you click on the Code Lens number of references of a method
 		// The Editor is the left part, the Result is the right part
 		"peekView.border": "#324a77",
-		"peekViewEditor.background": "#070707",
-		"peekViewEditorGutter.background": "#070707",
+		"peekViewEditor.background": "#1b1b1b",
+		"peekViewEditorGutter.background": "#1b1b1b",
 		"peekViewEditor.matchHighlightBackground": "#a579132f",
 		"peekViewEditor.matchHighlightBorder": "#00000000",
-		"peekViewResult.background": "#070707",
+		"peekViewResult.background": "#141414",
 		"peekViewResult.fileForeground": "#b0f0ff",
 		"peekViewResult.lineForeground": "#ffffff",
 		"peekViewResult.matchHighlightBackground": "#df521070",
 		"peekViewResult.selectionBackground": "#ffffff25",
 		"peekViewResult.selectionForeground": "#ffffff",
-		"peekViewTitle.background": "#070707",
+		"peekViewTitle.background": "#474747",
 		"peekViewTitleDescription.foreground": "#a3a3a3",
 		"peekViewTitleLabel.foreground": "#ffffff",
 		////////////////////////////////////////////////////////////////////
