@@ -1622,7 +1622,7 @@
 		"panel.background": "#000000",
 		"panel.border": "#303030",
 		"panel.dropBorder": "#4baede",
-		"panelInput.border": "#ff0000",
+		"panelInput.border": "#cccccc", // Filter box outline in Debug Console
 		"panelSection.dropBackground": "#58585856",
 		"panelSectionHeader.background": "#0e0e0e",
 		"panelSectionHeader.border": "#00ff62",
