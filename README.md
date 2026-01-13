@@ -3,23 +3,23 @@
 If you want something changed or if you see a color out of place, \
 please open up a new issue, and I'll be happy to configure it!
 
-## OLED Theme
-
-OLED theme with a black background.
-
-!["Theme Preview"](/oled.png)
-
 ## Dark Theme
 
 Default dark theme with dark gray background.
 
-!["Theme Preview"](/dark.png)
+!["Theme Preview"](/mgz-dark.png)
 
 ## Gray Theme
 
 Modified dark theme with gray elements.
 
-!["Theme Preview"](/gray.png)
+!["Theme Preview"](/mgz-gray.png)
+
+## OLED Theme
+
+OLED theme with a black background.
+
+!["Theme Preview"](/mgz-oled.png)
 
 ### `Have fun!`
 

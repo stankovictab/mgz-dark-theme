@@ -1416,7 +1416,7 @@
         "selection.background": "#333333",
         "scrollbar.shadow": "#000000",
         ////////////////////////////////////////////////////////////////////
-        // Activity Bar - The left vertical bar with explorer, search, etc.
+        // Activity Bar - The left-most vertical bar with explorer, search, etc.
         "activityBar.foreground": "#ffffff",
         "activityBar.activeBorder": "#50A7FF",
         "activityBar.activeBackground": "#16275736",
@@ -1474,10 +1474,10 @@
         "statusBarItem.remoteBackground": "#141414", // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "statusBarItem.remoteForeground": "#5fcbff",
         ////////////////////////////////////////////////////////////////////
-        // Title Bar - When window.titleBarStyle is set to "custom", the top bar (with minimize, maximize, etc)
-        "titleBar.activeBackground": "#000000",
+        // Title Bar - When window.titleBarStyle is set to "custom", the top bar (with File, Edit, search, minimize, maximize buttons, etc)
+        "titleBar.activeBackground": "#070707", // VSCode window in focus
         "titleBar.activeForeground": "#ffffff",
-        "titleBar.inactiveBackground": "#000000",
+        "titleBar.inactiveBackground": "#070707", // VSCode window not in focus
         "titleBar.inactiveForeground": "#6b6b6b",
         "titleBar.border": "#000000",
         // "window.activeBorder": "#00000000",
@@ -1613,9 +1613,9 @@
         "editorGroup.border": "#2b2b2b", // Border between editor groups
         "editorGroup.focusedEmptyBorder": "#424242", // When you create a new editor group with View: New Editor Group Above, and click on the empty group
         "editorGroup.emptyBackground": "#131313", // Background of an empty editor group
-        "editorGroupHeader.border": "#000000", // Bottom line of tabs in editor group
-        "editorGroupHeader.tabsBackground": "#000000",
-        "editorGroupHeader.tabsBorder": "#000000",
+        "editorGroupHeader.border": "#101010", // Bottom line of tabs in editor group
+        "editorGroupHeader.tabsBackground": "#101010", // Background of the tab bar in an editor group
+        "editorGroupHeader.tabsBorder": "#101010", // ???
         "editorGroupHeader.noTabsBackground": "#000000", // Tab bar in Zen Mode, for example
         ////////////////////////////////////////////////////////////////////
         // Panel - The panel that holds terminal, output, problems
@@ -1647,17 +1647,17 @@
         "breadcrumbPicker.background": "#050505",
         ////////////////////////////////////////////////////////////////////
         // Tabs - At the top of the editor
-        "tab.border": "#00000000",
+        "tab.border": "#101010",
         "tab.activeForeground": "#ffffff",
-        "tab.activeBackground": "#0e0e0e",
-        "tab.activeBorder": "#4baede",
-        "tab.activeBorderTop": "#00000000",
+        "tab.activeBackground": "#1b1b1b",
+        "tab.activeBorder": "#1babff",
+        "tab.activeBorderTop": "#070707",
         // "tab.activeModifiedBorder": "#ff0000", // ???
         "tab.inactiveForeground": "#999999",
-        "tab.inactiveBackground": "#000000",
+        "tab.inactiveBackground": "#101010",
         "tab.hoverBackground": "#171717",
         "tab.hoverForeground": "#ffffff",
-        "tab.hoverBorder": "#00000000",
+        "tab.hoverBorder": "#0774aa",
         "progressBar.background": "#4baede", // This is below the tab bar, you can see it when starting debugging or tests for example
         "scrollbarSlider.background": "#313131", // This is the slider at the bottom of the tab bar, seen when you have too many opened tabs, but also when you hover on something in the editor, if the docs are too large
         "scrollbarSlider.hoverBackground": "#757575",

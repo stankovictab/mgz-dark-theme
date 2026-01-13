@@ -1,39 +1,44 @@
 {
-	"name": "mgz-dark-theme",
-	"displayName": "MGZ Dark Theme",
-	"description": "You know it.",
-	"version": "0.1.8",
-	"publisher": "stankovictab",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/stankovictab/mgz-dark-theme"
-	},
-	"keywords": [
-		"theme",
-		"dark theme",
-		"stankovictab",
-		"mgz dark theme",
-		"mgz"
-	],
-	"icon": "icon.png",
-	"engines": {
-		"vscode": "^1.61.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "MGZ Dark Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MGZ Dark Theme-color-theme.json"
-			},
-			{
-				"label": "MGZ Gray Theme",
-				"uiTheme": "vs-dark",
-				"path": "./themes/MGZ Gray Theme-color-theme.json"
-			}
-		]
-	}
+    "name": "mgz-dark-theme",
+    "displayName": "MGZ Dark Theme",
+    "description": "You know it.",
+    "version": "0.1.8",
+    "publisher": "stankovictab",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stankovictab/mgz-dark-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "stankovictab",
+        "mgz dark theme",
+        "mgz"
+    ],
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "MGZ Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MGZ Dark Theme-color-theme.json"
+            },
+            {
+                "label": "MGZ Gray Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MGZ Gray Theme-color-theme.json"
+            },
+            {
+                "label": "MGZ OLED Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/MGZ OLED Theme-color-theme.json"
+            }
+        ]
+    }
 }
