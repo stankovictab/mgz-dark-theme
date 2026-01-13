@@ -1,5 +1,5 @@
 {
-    "name": "MGZ Dark Theme",
+    "name": "MGZ OLED Theme",
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
@@ -1419,21 +1419,21 @@
         // Activity Bar - The left vertical bar with explorer, search, etc.
         "activityBar.foreground": "#ffffff",
         "activityBar.activeBorder": "#50A7FF",
-        "activityBar.activeBackground": "#272727",
+        "activityBar.activeBackground": "#16275736",
         "activityBar.activeFocusBorder": "#ffffff",
         "activityBar.dropBorder": "#50A7FF",
-        "activityBar.background": "#1d1d1d",
+        "activityBar.background": "#080808",
         "activityBar.inactiveForeground": "#8f8f8f",
         "activityBarBadge.foreground": "#ffffff",
         "activityBarBadge.background": "#1e5686",
-        "activityBar.border": "#00000000",
+        "activityBar.border": "#000000",
         ////////////////////////////////////////////////////////////////////
         // Side Bar - The one right of the activity bar, with the explorer folders
-        "sideBar.background": "#181818",
+        "sideBar.background": "#050505",
         "sideBar.foreground": "#bebebe",
-        "sideBar.border": "#181818",
+        "sideBar.border": "#303030",
         "sideBar.dropBackground": "#53535363",
-        "sideBarSectionHeader.background": "#00000000",
+        "sideBarSectionHeader.background": "#1d1d1d36",
         "sideBarSectionHeader.foreground": "#50A7FF",
         "sideBarSectionHeader.border": "#3b3b3b36",
         "sideBarTitle.foreground": "#ffffff",
@@ -1453,33 +1453,33 @@
         "listFilterWidget.outline": "#00000000",
         "listFilterWidget.noMatchesOutline": "#ab282874",
         ////////////////////////////////////////////////////////////////////
-        // Tree - Specific Things
+        // Tree - ?
         "tree.indentGuidesStroke": "#8f8f8f", // Vertical lines when hovering folders in explorer
         "tree.tableColumnsBorder": "#494949", // When hovering rows in Keyboard Shortcuts
         "tree.tableOddRowsBackground": "#111111", // Rows in Keyboard Shortcuts
         ////////////////////////////////////////////////////////////////////
         // Status Bar - All the way down
-        "statusBar.background": "#272727", // #0f2146
+        "statusBar.background": "#000000", // #0f2146
         "statusBar.foreground": "#ffffff",
         "statusBar.border": "#303030",
-        "statusBar.focusBorder": "#272727",
+        "statusBar.focusBorder": "#000000",
         "statusBar.debuggingBackground": "#aa4003",
         "statusBar.debuggingForeground": "#ffffff",
-        "statusBar.debuggingBorder": "#00000000",
-        "statusBar.noFolderBackground": "#171717", // #270e35
+        "statusBar.debuggingBorder": "#000000",
+        "statusBar.noFolderBackground": "#000000", // #270e35
         "statusBar.noFolderForeground": "#ffffff",
-        "statusBar.noFolderBorder": "#00000000",
+        "statusBar.noFolderBorder": "#303030",
         "statusBarItem.hoverBackground": "#427faa41",
         "statusBarItem.activeBackground": "#ffffff25",
-        "statusBarItem.remoteBackground": "#272727", // The >< icon when connected to a remote server or debugging
+        "statusBarItem.remoteBackground": "#000000",
         "statusBarItem.remoteForeground": "#5fcbff",
         ////////////////////////////////////////////////////////////////////
         // Title Bar - When window.titleBarStyle is set to "custom", the top bar (with minimize, maximize, etc)
-        "titleBar.activeBackground": "#181818",
+        "titleBar.activeBackground": "#000000",
         "titleBar.activeForeground": "#ffffff",
-        "titleBar.inactiveBackground": "#181818",
+        "titleBar.inactiveBackground": "#000000",
         "titleBar.inactiveForeground": "#6b6b6b",
-        "titleBar.border": "#00000000",
+        "titleBar.border": "#000000",
         // "window.activeBorder": "#00000000",
         // "window.inactiveBorder": "#00000000",
         ////////////////////////////////////////////////////////////////////
@@ -1495,7 +1495,7 @@
         "menu.selectionBackground": "#000000",
         "menu.selectionBorder": "#000000", // Should be the same as selectionBackground to avoid the gap
         "menu.separatorBackground": "#474747", // Seperator in right click menu
-        "menu.border": "#474747",
+        "menu.border": "#000000",
         ////////////////////////////////////////////////////////////////////
         // Button - An example is New Request in Thunder Client
         "button.background": "#35709b",
@@ -1507,7 +1507,7 @@
         "button.secondaryHoverBackground": "#333333",
         ////////////////////////////////////////////////////////////////////
         // Input - An example is the search field in CTRL+SHIFT+F
-        "input.background": "#101010",
+        "input.background": "#161616",
         "input.border": "#00000000",
         "input.foreground": "#ffffff",
         "inputOption.activeBackground": "#1e3366",
@@ -1518,16 +1518,16 @@
         "textCodeBlock.background": "#1d335a", // Inline code snippets in hover popup documentation on a keyword (not Markdown code blocks!)
         ////////////////////////////////////////////////////////////////////
         // Editor - Where you write code
-        "editor.background": "#272727",
+        "editor.background": "#000000",
         "editor.foreground": "#ffffff", // Color of text in Plain Text file
-        "editor.selectionBackground": "#171717",
+        "editor.selectionBackground": "#2c2c2c",
         "editor.inactiveSelectionBackground": "#1b1b1b",
         "editor.selectionHighlightBackground": "#38c1ea2a",
         "editor.selectionHighlightBorder": "#00000000",
         "editor.findMatchBackground": "#113c74",
         "editor.findMatchBorder": "#00000000",
         "editor.findMatchHighlightBackground": "#eca7114f",
-        "editor.findMatchHighlightBorder": "#5e5e5e",
+        "editor.findMatchHighlightBorder": "#00000000",
         "editor.findRangeHighlightBackground": "#51515130",
         "editor.findRangeHighlightBorder": "#00000000",
         "editor.rangeHighlightBackground": "#5c5c5c0b",
@@ -1540,14 +1540,14 @@
         "editor.lineHighlightBackground": "#42424242", // Current line
         "editor.lineHighlightBorder": "#00000000",
         "editor.foldBackground": "#1b25514d",
-        "editorWhitespace.foreground": "#474747", // Tabs or spaces when selecting whitespace
+        "editorWhitespace.foreground": "#000000", // Tabs or spaces when selecting whitespace
         "editorCursor.foreground": "#e4e4e4",
         "editorCursor.background": "#000000",
-        "editorLineNumber.foreground": "#9c9c9c", // Line numbers
+        "editorLineNumber.foreground": "#333333", // Line numbers
         "editorLineNumber.activeForeground": "#57a6e6",
         "editorLink.activeForeground": "#57a6e6",
-        "editorIndentGuide.background": "#313131",
-        "editorIndentGuide.activeBackground": "#4d4d4d",
+        "editorIndentGuide.background": "#0f0f0f",
+        "editorIndentGuide.activeBackground": "#303030",
         "editorRuler.foreground": "#212121",
         "editorBracketMatch.background": "#7c2b2b98",
         "editorBracketMatch.border": "#ff814f",
@@ -1592,7 +1592,7 @@
         "editorCodeLens.foreground": "#aaaaaa",
         ////////////////////////////////////////////////////////////////////
         // Editor Gutter - The vertical line with line numbers on the left side
-        "editorGutter.background": "#272727",
+        "editorGutter.background": "#000000",
         "editorGutter.modifiedBackground": "#418ae8",
         "editorGutter.addedBackground": "#8de029",
         "editorGutter.deletedBackground": "#c41f26",
@@ -1612,21 +1612,21 @@
         "editorGroup.dropBackground": "#55555560", // Color of the highlight when you drag the tab into the editor to create a new editor group
         "editorGroup.border": "#2b2b2b", // Border between editor groups
         "editorGroup.focusedEmptyBorder": "#424242", // When you create a new editor group with View: New Editor Group Above, and click on the empty group
-        "editorGroup.emptyBackground": "#202020", // Background of an empty editor group
-        "editorGroupHeader.border": "#00000000", // Bottom line of tabs in editor group
-        "editorGroupHeader.tabsBackground": "#181818", // Tab bar background
-        "editorGroupHeader.tabsBorder": "#00000000",
+        "editorGroup.emptyBackground": "#131313", // Background of an empty editor group
+        "editorGroupHeader.border": "#000000", // Bottom line of tabs in editor group
+        "editorGroupHeader.tabsBackground": "#000000",
+        "editorGroupHeader.tabsBorder": "#000000",
         "editorGroupHeader.noTabsBackground": "#000000", // Tab bar in Zen Mode, for example
         ////////////////////////////////////////////////////////////////////
         // Panel - The panel that holds terminal, output, problems
-        "panel.background": "#181818",
-        "panel.border": "#181818",
+        "panel.background": "#000000",
+        "panel.border": "#303030",
         "panel.dropBorder": "#4baede",
         "panelInput.border": "#cccccc", // Filter box outline in Debug Console
         "panelSection.dropBackground": "#58585856",
         "panelSectionHeader.background": "#0e0e0e",
         "panelSectionHeader.border": "#00ff62",
-        "panelSectionHeader.foreground": "#ff0000",
+        "panelSectionHeader.foreground": "#7EE2FF", // GitLens' Commit Graph title, for example
         "panelSection.border": "#21212158",
         "panelTitle.activeBorder": "#4baede",
         "panelTitle.activeForeground": "#ffffff",
@@ -1640,7 +1640,7 @@
         // "banner.iconForeground": "#ff0000",
         ////////////////////////////////////////////////////////////////////
         // Breadcrumbs - File paths at the top of the editor
-        "breadcrumb.background": "#1d1d1d",
+        "breadcrumb.background": "#000000",
         "breadcrumb.foreground": "#999999",
         "breadcrumb.focusForeground": "#eeeeee",
         "breadcrumb.activeSelectionForeground": "#eeeeee",
@@ -1649,13 +1649,13 @@
         // Tabs - At the top of the editor
         "tab.border": "#00000000",
         "tab.activeForeground": "#ffffff",
-        "tab.activeBackground": "#333333",
+        "tab.activeBackground": "#0e0e0e",
         "tab.activeBorder": "#4baede",
         "tab.activeBorderTop": "#00000000",
         // "tab.activeModifiedBorder": "#ff0000", // ???
         "tab.inactiveForeground": "#999999",
-        "tab.inactiveBackground": "#242424",
-        "tab.hoverBackground": "#4b4b4b",
+        "tab.inactiveBackground": "#000000",
+        "tab.hoverBackground": "#171717",
         "tab.hoverForeground": "#ffffff",
         "tab.hoverBorder": "#00000000",
         "progressBar.background": "#4baede", // This is below the tab bar, you can see it when starting debugging or tests for example
@@ -1676,14 +1676,14 @@
         ////////////////////////////////////////////////////////////////////
         // Notifications - The little pop-up that appears at the bottom right of the screen
         "notifications.foreground": "#ffffff",
-        "notifications.background": "#181818",
+        "notifications.background": "#0a0a0a",
         "notificationToast.border": "#00000000",
         "notificationsErrorIcon.foreground": "#ff3854",
         "notificationsWarningIcon.foreground": "#ffed59",
         "notificationsInfoIcon.foreground": "#7EE2FF",
         "notificationCenter.border": "#00000000",
         "notificationCenterHeader.foreground": "#eaeaea",
-        "notificationCenterHeader.background": "#181818",
+        "notificationCenterHeader.background": "#060606",
         "notifications.border": "#0d0d0d00",
         ////////////////////////////////////////////////////////////////////
         // Git Decorations
@@ -1719,17 +1719,17 @@
         // Or just when you click on the Code Lens number of references of a method
         // The Editor is the left part, the Result is the right part
         "peekView.border": "#324a77",
-        "peekViewEditor.background": "#1b1b1b",
-        "peekViewEditorGutter.background": "#1b1b1b",
+        "peekViewEditor.background": "#070707",
+        "peekViewEditorGutter.background": "#070707",
         "peekViewEditor.matchHighlightBackground": "#a579132f",
         "peekViewEditor.matchHighlightBorder": "#00000000",
-        "peekViewResult.background": "#141414",
+        "peekViewResult.background": "#070707",
         "peekViewResult.fileForeground": "#b0f0ff",
         "peekViewResult.lineForeground": "#ffffff",
         "peekViewResult.matchHighlightBackground": "#df521070",
         "peekViewResult.selectionBackground": "#ffffff25",
         "peekViewResult.selectionForeground": "#ffffff",
-        "peekViewTitle.background": "#474747",
+        "peekViewTitle.background": "#070707",
         "peekViewTitleDescription.foreground": "#a3a3a3",
         "peekViewTitleLabel.foreground": "#ffffff",
         ////////////////////////////////////////////////////////////////////
@@ -1745,7 +1745,7 @@
         "minimap.selectionHighlight": "#0d0d0d",
         "minimap.errorHighlight": "#ff3520",
         "minimap.warningHighlight": "#f9d081c7",
-        "minimap.background": "#2b2b2b",
+        "minimap.background": "#000000",
         "walkThrough.embeddedEditorBackground": "#00000050",
         "debugExceptionWidget.background": "#080808",
         "debugExceptionWidget.border": "#00000000",
@@ -1815,7 +1815,7 @@
         ////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////
         // TERMINAL COLORS
-        "terminal.background": "#242424",
+        "terminal.background": "#000000",
         "terminal.dropBackground": "#2e2e2e93",
         "terminal.tab.activeBorder": "#03b8ff",
         "terminal.foreground": "#ffffff",

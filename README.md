@@ -1,11 +1,17 @@
 # MGZ Dark Theme
 
 If you want something changed or if you see a color out of place, \
-please open up a new issue, I'll be happy to configure it.
+please open up a new issue, and I'll be happy to configure it!
 
-## Dark Theme 
+## OLED Theme
 
-Default dark theme with black background.
+OLED theme with a black background.
+
+!["Theme Preview"](/oled.png)
+
+## Dark Theme
+
+Default dark theme with dark gray background.
 
 !["Theme Preview"](/dark.png)
 
