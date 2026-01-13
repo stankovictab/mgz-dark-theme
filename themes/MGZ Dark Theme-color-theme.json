@@ -1459,19 +1459,19 @@
         "tree.tableOddRowsBackground": "#111111", // Rows in Keyboard Shortcuts
         ////////////////////////////////////////////////////////////////////
         // Status Bar - All the way down
-        "statusBar.background": "#000000", // #0f2146
+        "statusBar.background": "#141414", // In a folder // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "statusBar.foreground": "#ffffff",
-        "statusBar.border": "#303030",
+        "statusBar.border": "#141414", // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "statusBar.focusBorder": "#000000",
         "statusBar.debuggingBackground": "#aa4003",
         "statusBar.debuggingForeground": "#ffffff",
-        "statusBar.debuggingBorder": "#000000",
-        "statusBar.noFolderBackground": "#000000", // #270e35
+        "statusBar.debuggingBorder": "#aa4003",
+        "statusBar.noFolderBackground": "#141414", // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "statusBar.noFolderForeground": "#ffffff",
-        "statusBar.noFolderBorder": "#303030",
+        "statusBar.noFolderBorder": "#141414", // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "statusBarItem.hoverBackground": "#427faa41",
         "statusBarItem.activeBackground": "#ffffff25",
-        "statusBarItem.remoteBackground": "#000000",
+        "statusBarItem.remoteBackground": "#141414", // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "statusBarItem.remoteForeground": "#5fcbff",
         ////////////////////////////////////////////////////////////////////
         // Title Bar - When window.titleBarStyle is set to "custom", the top bar (with minimize, maximize, etc)
@@ -1518,7 +1518,7 @@
         "textCodeBlock.background": "#1d335a", // Inline code snippets in hover popup documentation on a keyword (not Markdown code blocks!)
         ////////////////////////////////////////////////////////////////////
         // Editor - Where you write code
-        "editor.background": "#000000",
+        "editor.background": "#090909", // FIXME: Should be #121212, Electron color profiling is messed up, #090909 is #111111 now
         "editor.foreground": "#ffffff", // Color of text in Plain Text file
         "editor.selectionBackground": "#2c2c2c",
         "editor.inactiveSelectionBackground": "#1b1b1b",
@@ -1540,11 +1540,11 @@
         "editor.lineHighlightBackground": "#42424242", // Current line
         "editor.lineHighlightBorder": "#00000000",
         "editor.foldBackground": "#1b25514d",
-        "editorWhitespace.foreground": "#000000", // Tabs or spaces when selecting whitespace
+        "editorWhitespace.foreground": "#222222", // Tabs or spaces when selecting whitespace
         "editorCursor.foreground": "#e4e4e4",
         "editorCursor.background": "#000000",
         "editorLineNumber.foreground": "#333333", // Line numbers
-        "editorLineNumber.activeForeground": "#57a6e6",
+        "editorLineNumber.activeForeground": "#1babff",
         "editorLink.activeForeground": "#57a6e6",
         "editorIndentGuide.background1": "#0f0f0f",
         "editorIndentGuide.activeBackground1": "#303030",
@@ -1592,7 +1592,7 @@
         "editorCodeLens.foreground": "#aaaaaa",
         ////////////////////////////////////////////////////////////////////
         // Editor Gutter - The vertical line with line numbers on the left side
-        "editorGutter.background": "#000000",
+        "editorGutter.background": "#090909", // FIXME: Should be #121212, Electron color profiling is messed up, #090909 is #111111 now
         "editorGutter.modifiedBackground": "#418ae8",
         "editorGutter.addedBackground": "#8de029",
         "editorGutter.deletedBackground": "#c41f26",
@@ -1619,7 +1619,7 @@
         "editorGroupHeader.noTabsBackground": "#000000", // Tab bar in Zen Mode, for example
         ////////////////////////////////////////////////////////////////////
         // Panel - The panel that holds terminal, output, problems
-        "panel.background": "#000000",
+        "panel.background": "#141414", // FIXME: Should be #1b1b1b, Electron color profiling is messed up, #141414 is #1b1b1b now
         "panel.border": "#303030",
         "panel.dropBorder": "#4baede",
         "panelInput.border": "#cccccc", // Filter box outline in Debug Console
@@ -1756,10 +1756,6 @@
         "dropdown.border": "#111111",
         "dropdown.listBackground": "#181818",
         ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
         // VSCode Settings Menu
         "settings.checkboxBackground": "#202020",
         "settings.checkboxBorder": "#000000",
@@ -1781,10 +1777,6 @@
         "settings.textInputForeground": "#ffffff",
         "settings.headerForeground": "#5db1ff",
         "settings.focusedRowBackground": "#0f0f0f",
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////
         // Jupyter Notebook
         "notebook.cellBorderColor": "#1b1b1b",
@@ -1810,12 +1802,8 @@
         "notebookStatusRunningIcon.foreground": "#ff0000",
         "notebookStatusSuccessIcon.foreground": "#48da2a",
         ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
         // TERMINAL COLORS
-        "terminal.background": "#121212",
+        "terminal.background": "#090909", // FIXME: Should be #121212, Electron color profiling is messed up, #090909 is #111111 now
         "terminal.dropBackground": "#2e2e2e93",
         "terminal.tab.activeBorder": "#03b8ff",
         "terminal.foreground": "#ffffff",
@@ -1839,10 +1827,6 @@
         "terminal.ansiBrightCyan": "#78ffff",
         "terminal.ansiWhite": "#ffffff",
         "terminal.ansiBrightWhite": "#ffffff",
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
-        ////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////////////
         // Debug Console & Debug Stuff
         "debugConsole.errorForeground": "#df4545",
